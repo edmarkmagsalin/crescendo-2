@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>ACME Corporation</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 desktop-only">
+                    <div class="logo-and-text">
+                        <span class="company-logo">
+                            <img src="./assets/img/logo.png" alt="">
+                        </span>
+                        <h1 class="company-name">
+                            <span class="company-name__small">
+                                Research Professional
+                            </span>
+                            <span class="company-name__large">
+                                Platform
+                            </span>
+                        </h1>
+                        <div class="vertical-line">&nbsp;</div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 mobile-only">
+                    <div class="logo-and-text-mobile">
+                        <span class="company-logo">
+                            <img src="./assets/img/mobile/logo.png" alt="">
+                        </span>
+                    </div>
+                </div>
+                <label for="menu-toggle" class="mobile-only hamburger" id="hamburger">
+                    <div class="hamburger__inner">
+                        <div></div>
+                    </div>
+                </label>
+                <input type="checkbox" id="menu-toggle" class="mobile-only toggler">
+                <nav class="col-lg-8 nav-container">
+                    <div class="mobile-only nav-header">
+                        Site Links
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Insights</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="gradient">
+                <div class="container">
+                    <div class="tagline">
+                        <h1>
+                            ACME Wealth<br />
+                            Management Platforms
+                        </h1>
+                        <h2>
+                            Investment excellence.<br />
+                            Diversity of thought.<br />
+                            Organizational strength.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- /////////////////// INSIGHTS : BEGIN /////////////////// -->
+        <section class="insights desktop-only">
+            <div class="container">
+                <h2 class="insights__header">
+                    ACME Insights
+                </h2>
+                <p class="insights__subheader">
+                    How are factors being used around the world?
+                </p>
+
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="insight insight--color1">
+                            <img class="insight__image" src="./assets/img/insight1.png" alt="">
+                            <h3 class="insight__header">
+                                Global Factor <br />
+                                Investing Study
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="insight insight--color2">
+                            <img class="insight__image" src="./assets/img/insight2.png" alt="">
+                            <h3 class="insight__header">
+                                2019 <br />
+                                Outlook
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="insight insight--color3">
+                            <img class="insight__image" src="./assets/img/insight3.png" alt="">
+                            <h3 class="insight__header">
+                                Capital Market <br />
+                                Assumptions
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="insights insights--mobile mobile-only">
+            <div class="container">
+                <h2 class="insights__header">
+                    ACME <strong>Insights</strong>
+                </h2>
+                <p class="insights__subheader">
+                    How are factors being used around the world?
+                </p>
+            </div>
+
+            <div class="container fluid">
+                <div class="splide" id="insight">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="insight insight--color1">
+                                    <img class="insight__image" src="./assets/img/insight1.png" alt="">
+                                    <h3 class="insight__header">
+                                        Global Factor <br />
+                                        Investing Study
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="insight insight--color2">
+                                    <img class="insight__image" src="./assets/img/insight2.png" alt="">
+                                    <h3 class="insight__header">
+                                        2019 <br />
+                                        Outlook
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="insight insight--color3">
+                                    <img class="insight__image" src="./assets/img/insight3.png" alt="">
+                                    <h3 class="insight__header">
+                                        Capital Market <br />
+                                        Assumptions
+                                    </h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /////////////////// INSIGHTS : END /////////////////// -->
+
+        <section class="contact-us">
+            <div class="container">
+                <h2 class="contact-us__header">Our Commitment to Professionals</h2>
+                <p class="contact-us__subheader">
+                    We help our partners deliver industry leading results with a commitment to excellence, thought-provoking insights and experienced distribution. We are laser focused on our shared goal – helping clients achieve their objectives. 
+                </p>
+                <br />
+                <br />
+                <button>
+                    Contact Us
+                </button>
+            </div>
+        </section>
+
+        <!-- /////////////////// EVENTS : BEGIN /////////////////// -->
+        <section class="events desktop-only">
+            <div class="container">
+                <h2 class="events__header">
+                    Upcoming Events
+                </h2>
+                <p class="events__subheader">
+                    This needs a great tagline, but I’ll fill it in later
+                </p>
+
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="event">
+                            <div class="event__fold-effect"></div>
+                            <div class="event__container">
+                                <div class="event__date">
+                                    <div class="event__month">
+                                        JAN
+                                    </div>
+                                    <div class="event__day">
+                                        28
+                                    </div>
+                                </div>
+                                <h3 class="event__header">
+                                    Insight Exchange Network
+                                </h3>
+                                <h3 class="event__subheader">
+                                    Join us for this conference showcasing innovation.
+                                </h3>
+                                <button>
+                                    Get More Insight
+                                </button>
+                                <div class="event__location">
+                                    <div>Chicago, IL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="event">
+                            <div class="event__fold-effect"></div>
+                            <div class="event__container">
+                                <div class="event__date">
+                                    <div class="event__month">
+                                        FEB
+                                    </div>
+                                    <div class="event__day">
+                                        12
+                                    </div>
+                                </div>
+                                <h3 class="event__header">
+                                    Citywide Buyer’s Retreat
+                                </h3>
+                                <h3 class="event__subheader">
+                                    Find out how banks are responding to the changing future of interest...
+                                </h3>
+                                <button>
+                                    Get More Insight
+                                </button>
+                                <div class="event__location">
+                                    <div>The Wagner, New York</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="event">
+                            <div class="event__fold-effect"></div>
+                            <div class="event__container">
+                                <div class="event__date">
+                                    <div class="event__month">
+                                        MAY
+                                    </div>
+                                    <div class="event__day">
+                                        6
+                                    </div>
+                                </div>
+                                <h3 class="event__header">
+                                    Research Exchange
+                                </h3>
+                                <h3 class="event__subheader">
+                                    Find the best online resources to help with your investments...
+                                </h3>
+                                <button>
+                                    Get More Insight
+                                </button>
+                                <div class="event__location">
+                                    <div>London, England</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="events events--mobile mobile-only">
+            
+            <div class="container">
+                <h2 class="events__header">
+                    Upcoming <strong>Events</strong>
+                </h2>
+                <p class="events__subheader">
+                    This needs a great tagline, but I’ll fill it in later
+                </p>
+            </div>
+            
+            <div class="container fluid">
+                <div class="splide" id="events">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="event">
+                                    <div class="event__fold-effect"></div>
+                                    <div class="event__container">
+                                        <div class="event__date">
+                                            <div class="event__month">
+                                                JAN
+                                            </div>
+                                            <div class="event__day">
+                                                28
+                                            </div>
+                                        </div>
+                                        <h3 class="event__header">
+                                            Insight Exchange Network
+                                        </h3>
+                                        <h3 class="event__subheader">
+                                            Join us for this conference showcasing innovation.
+                                        </h3>
+                                        <button>
+                                            Get More Insight
+                                        </button>
+                                        <div class="event__location">
+                                            <div>Chicago, IL</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="event">
+                                    <div class="event__fold-effect"></div>
+                                    <div class="event__container">
+                                        <div class="event__date">
+                                            <div class="event__month">
+                                                FEB
+                                            </div>
+                                            <div class="event__day">
+                                                12
+                                            </div>
+                                        </div>
+                                        <h3 class="event__header">
+                                            Citywide Buyer’s Retreat
+                                        </h3>
+                                        <h3 class="event__subheader">
+                                            Find out how banks are responding to the changing future of interest...
+                                        </h3>
+                                        <button>
+                                            Get More Insight
+                                        </button>
+                                        <div class="event__location">
+                                            <div>The Wagner, New York</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="event">
+                                    <div class="event__fold-effect"></div>
+                                    <div class="event__container">
+                                        <div class="event__date">
+                                            <div class="event__month">
+                                                MAY
+                                            </div>
+                                            <div class="event__day">
+                                                6
+                                            </div>
+                                        </div>
+                                        <h3 class="event__header">
+                                            Research Exchange
+                                        </h3>
+                                        <h3 class="event__subheader">
+                                            Find the best online resources to help with your investments...
+                                        </h3>
+                                        <button>
+                                            Get More Insight
+                                        </button>
+                                        <div class="event__location">
+                                            <div>London, England</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /////////////////// EVENTS : END /////////////////// -->
+
+    </main>
+    <footer>
+        <section>
+            <div class="container">
+
+                <div class="desktop-only">
+                    <p>Call us at 111-222-3333<br />
+                        for more information </p>
+                </div>
+                <div class="desktop-only">
+                    <div class="social-media">
+                        <div>
+                            <p class="social-media-text">Social Share</p>
+                        </div>
+                        <div>
+                            <nav class="social-media-nav">
+                                <ul>
+                                    <li>
+                                        <a href="#"><img src="./assets/img/twitter.png" alt="Twitter"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./assets/img/facebook.png" alt="Facebook"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./assets/img/linkedin.png" alt="LinkedIn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./assets/img/email.png" alt="Email"></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <nav class="col-lg-8 nav-container-footer mobile-only">
+
+                    <ul class="nav-footer-1">
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        </li>
+                    </ul>
+                    <div class="mobile-only nav-header">
+                        Site Links
+                    </div>
+                    <ul class="nav-footer-2">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Insights</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                        <li>
+                            <a href="#">Due Diligence</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        new Splide( '#insight', {
+            type   : 'loop',
+            padding: {
+                right: '2rem',
+                left: '2rem',
+            },
+        } ).mount();
+        new Splide( '#events', {
+            type   : 'loop',
+            padding: {
+                right: '2rem',
+                left: '2rem',
+            },
+        } ).mount();
+
+        // for toggler
+        const menuToggle = document.querySelector('#menu-toggle');
+        const hamburger = document.querySelector('#hamburger');
+        
+
+        menuToggle.addEventListener('change', () => {
+            if(menuToggle.checked) {
+                hamburger.classList.add('active')
+            } else {
+                hamburger.classList.remove('active')
+            }
+        })
+
+
+
+    </script>
+</body>
+</html>
